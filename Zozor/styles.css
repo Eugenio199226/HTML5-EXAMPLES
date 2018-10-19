@@ -1,0 +1,38 @@
+body
+{
+    background:url(./images/yellow_background.png)
+}
+header > div
+{
+     display:inline-block;
+     width:370px;
+}
+h1
+{
+    margin: 0px 0px 0px 0px;
+}
+header > div > div > div
+{
+     display:inline-block;
+     width:59px;
+}
+header >div > nav > div
+{
+    float: right;
+    padding-right: 5px;
+}
+header >div > nav > div > a
+{
+    color:black;
+}
+.Inthemiddel
+{
+    background:url(./images/sanfrancisco.jpg);
+    height: 219px;
+    
+}
+.Inthemiddel > div 
+{
+    background-color: rgba(0, 0, 0, 0.8)
+    
+}

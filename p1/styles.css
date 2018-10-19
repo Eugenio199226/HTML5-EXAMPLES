@@ -1,0 +1,25 @@
+/*p{
+    color:red;
+    font-size:20px;
+    background-color: aqua;padding-left: 10mm;margin: 10mm}
+*/
+#prueba{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px}
+
+.logo{background-color: yellow}
+
+
+/*css es secuencial*/
+header  div  img{width: 50px;background-color: tomato}
+/* los signos de mayor obligan a buscar aquel elemento que contenga al siguiente de forma directa  */
+header >  div >  img{width: 100px;background-color: silver}
+
+
+article > div {width: 100px;border:2px solid blue;}
+
+
+article > div img{width:100%;}
+p.azul{background-color: blue}
+p.rojo{background-color: red}
+.bordeado{border:2px dashed black}

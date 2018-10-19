@@ -1,0 +1,60 @@
+/* latin */
+@font-face {
+    font-family: 'DeathNote';
+    src:  url(DEATHNOTEFont.ttf);
+  }
+
+
+body{background:black}
+h1
+{
+    font-size: 50px;
+}
+
+h1,h2
+{
+    font-family: 'DeathNote';
+    color:white;
+    
+}
+
+a:hover{color:red}
+p,li
+{
+    color:aquamarine;
+    
+    font-family: 'Mali', cursive;
+}
+section > article > div
+{
+    border:2px solid red;
+    width: 50px;
+    float: right;
+}
+
+div > img
+{
+    width:100%
+}
+footer > div
+{
+    width: 50px;
+}
+.caja
+{
+    float: left;
+}
+button
+{
+ border-radius: 5px;
+ background:red;
+ border-color: red;
+ text-transform: uppercase;
+ padding:10px 20px;
+}
+button:hover
+{
+    background:blue;
+    border-color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+section
+{
+    background-color:green;
+    width:  200px;
+    height: 200px;
+    border-bottom: 20cm;
+}
+section > div
+{
+    background-color:red;
+    width:  45px;
+    height: 45px;
+    display: inline-block;
+    margin: 10px 11px 12px 50px;
+}
+.subdiv2
+{
+    background-color:blue;
+    border-radius: 15px
+}
+#prueba
+{
+    background-color: black;
+    
+}
