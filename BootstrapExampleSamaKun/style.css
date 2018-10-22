@@ -1,0 +1,13 @@
+
+div{background: grey; border:none;}
+Footer > div
+{
+    background: red
+}
+#col1{
+    background: lightblue
+}
+.espaciador
+{
+    margin:2px
+}

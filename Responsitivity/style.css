@@ -1,0 +1,45 @@
+body
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:30px;
+
+}
+header>div
+{
+display:inline-block;
+width: 20%;
+border:2px solid black;
+}
+header>nav
+{
+display:inline-block;
+border:2px solid Blue;
+width: 70%;
+}
+section>div
+{
+display:inline-block;
+border:2px solid green;
+width: 32%;
+}
+article>div
+{
+display:inline-block;
+border:2px solid rgb(28, 80, 175);
+width:100%;
+}
+footer>div
+{
+display:inline-block;
+border:2px solid rgb(200, 34, 134);
+width:100%;
+}
+
+@media screen and (max-width:435px)
+{
+    header>div{width:100%;}
+    header>nav{width:100%;}
+    section>div{width:100%;}
+    footer>div
+    {visibility: hidden;}
+}

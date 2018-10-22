@@ -1,0 +1,84 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    Color:white
+}
+div
+{
+    width: 400px;
+    border-radius: 10px;
+}
+a
+{color:#0F6325}
+input
+{
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+}
+button{ 
+    border:none; 
+    padding:15px;
+     font-size:2em;
+    background-color: #0F6325;
+    border-radius: 15px;
+    }
+
+.Main
+{
+    margin:30px auto;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+#Terminos
+{
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+#izquierda
+{
+    text-align: right;
+}
+
+#nombre
+{
+    background-image: url("./img/man-user.png");
+    background-size:  15px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+}
+#number
+{
+    background-image: url("./img/phone-call.png");
+    background-size:  15px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+}
+#email
+{
+    background-image: url("./img/envelope.png");
+    background-size:  15px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+}
+#password
+{
+    background-image: url("./img/Holder.png");
+    background-size:  15px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrate</h1>
+    <form action="recepcionForm.html" method="POST">
+        <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" minlength="3" maxlength="30" required pattern="[a-zA-Z ]*">
+        </div>
+        <div>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" maxlength="15" required>
+        </div>
+        <div>
+            <label for="edad">EDAD:</label>
+            <input type="Number" name="edad" id="edad" Maxlenght="3" min="14" max="100">
+        </div>
+        <div>
+            <label for="">Sexo:</label>
+            <input type="radio" name="sexo" value="M" id="Mujer"><label for="Mujer">M</label>
+            <input type="radio" name="sexo" value="H" id="Hombre"><label for="Hombre">H</label>
+            <input type="radio" name="sexo" value="D" id="Dragon"><label for="Hombre">Dragon milenario nivel 100</label>
+        </div>
+        <div>
+            <label for="CheckSub">¿Desea subcribirse?</label>
+            <input type="checkbox" name="CheckSub" value="YES!" id="checksub">
+        </div>
+        <div>
+            <input type="color" name="" id="">
+        </div>
+        <div>
+            <input type="datetime-local" name="" id="">
+        </div>
+        <div>
+            <label for="">pais:</label>
+            <select name="pais" id="">
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+                <option value="Mordor">Mordor</option>
+            </select>
+        </div>
+        <div>
+            <input type="search" name="" id="">
+        </div>
+        <div><label for="cuentame">Cuenta algo de ti</label>
+            <textarea name="ceuntame" id="cuentame" cols="30" rows="10"></textarea></div>
+        <div>
+                <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size:30px;
+
+}
+header>div
+{
+border:2px solid black;
+}
+header>nav
+{
+border:2px solid Blue;
+}
+section>div
+{
+border:2px solid green;
+}
+article>div
+{
+border:2px solid rgb(28, 80, 175);
+}
+footer>div
+{
+border:2px solid rgb(200, 34, 134);
+}

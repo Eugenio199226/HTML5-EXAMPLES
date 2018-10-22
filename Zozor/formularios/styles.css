@@ -1,0 +1,12 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: green;
+    
+}
+label{margin-left: 3px; display: inline-block;}
+div{background:red}
+button{box-shadow: 3px 4px 4px 3px #000;border:none
+ }
+h1{font-style: italic; font-family: Verdana, Geneva, Tahoma, sans-serif}
