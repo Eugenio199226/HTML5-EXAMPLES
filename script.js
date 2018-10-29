@@ -15,10 +15,12 @@ btn.onclick=function()
         }
         if (i== textoSeparado.length-1)
         {
-            document.getElementById('parrafo').innerHTML +=textoSeparado[i].substr(0,1).toUpperCase()+textoSeparado[i].substr(1,textoSeparado[i].length);
+            document.getElementById('parrafo').innerHTML +=textoSeparado[i].substr(0,1).toUpperCase()+
+            textoSeparado[i].substr(1,textoSeparado[i].length).toLowerCase();
         }else
         {
-            document.getElementById('parrafo').innerHTML +=textoSeparado[i].substr(0,1).toUpperCase()+textoSeparado[i].substr(1,textoSeparado[i].length)+" ";
+            document.getElementById('parrafo').innerHTML +=textoSeparado[i].substr(0,1).toUpperCase()+
+            textoSeparado[i].substr(1,textoSeparado[i].length).toLowerCase()+" ";
         }
         
     }
@@ -41,12 +43,63 @@ btn3.onclick=function()
 btn3.ondblclick=function()
 {
     let hora=new Date();
-    document.getElementById('parrafo').innerHTML="Boing Boing, la hora de hoy es: "+hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds()+":"+hora.getMilliseconds();
+    document.getElementById('parrafo').innerHTML="Boing Boing, son las: "+hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds()+":"+hora.getMilliseconds();
 }
-
+/*
 function reloj()
 {
-    let hora=new Date();
-    document.getElementById("reloj").innerHTML=+hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds();
-    setTimeout("reloj()",1000);
+    let hora2=new Date();
+    document.getElementById("reloj").innerHTML=hora2.getHours()+":"+hora2.getMinutes()+":"+hora2.getSeconds()+":"+hora2.getMilliseconds();
+    setTimeout("reloj()",1);
 }
+let n1=document.getElementById('n1');
+let n2=document.getElementById('n2');
+let n3=document.getElementById('n3');
+let n4=document.getElementById('n4');
+let n5=document.getElementById('n5');
+let n6=document.getElementById('n6');
+let n7=document.getElementById('n7');
+let n8=document.getElementById('n8');
+let n9=document.getElementById('n9');
+let n0=document.getElementById('n0');
+
+n1.onclick=function()
+{
+
+};
+n2.onclick=function()
+{
+
+};
+n3.onclick=function()
+{
+
+};
+n4.onclick=function()
+{
+
+};
+n5.onclick=function()
+{
+
+};
+n6.onclick=function()
+{
+
+};
+n7.onclick=function()
+{
+
+};
+n8.onclick=function()
+{
+
+};
+n9.onclick=function()
+{
+
+};
+n0.onclick=function()
+{
+
+};*/
