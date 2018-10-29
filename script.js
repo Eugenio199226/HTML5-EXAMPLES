@@ -32,7 +32,7 @@ btn2.onclick=function()
 btn2.ondblclick=function()
 {
     let fecha=new Date();
-    document.getElementById('parrafo').innerHTML="Boing Boing, la fecha de hoy es: "+fecha.getDay()+"//"+fecha.getMonth()+"//"+fecha.getFullYear();
+    document.getElementById('parrafo').innerHTML="Boing Boing, la fecha de hoy es: "+fecha.getDay()+"/"+fecha.getMonth()+"/"+fecha.getFullYear();
 }
 
 btn3.onclick=function()
@@ -43,15 +43,46 @@ btn3.onclick=function()
 btn3.ondblclick=function()
 {
     let hora=new Date();
-    document.getElementById('parrafo').innerHTML="Boing Boing, son las: "+hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds()+":"+hora.getMilliseconds();
+    document.getElementById('parrafo').innerHTML="Boing Boing, son las: "+hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds();
 }
-/*
+
 function reloj()
 {
     let hora2=new Date();
     document.getElementById("reloj").innerHTML=hora2.getHours()+":"+hora2.getMinutes()+":"+hora2.getSeconds()+":"+hora2.getMilliseconds();
     setTimeout("reloj()",1);
 }
+document.getElementById("Titulo").onmouseover=function()
+{
+    document.getElementById("Titulo").style.color="Red";
+    document.getElementById("Titulo").innerHTML="Dentro del H1"
+    document.getElementById("chivato").innerHTML="Ahora estás dentro de H1"
+}
+document.getElementById("Titulo").onmouseleave=function()
+{
+    document.getElementById("Titulo").style.color="";
+    document.getElementById("Titulo").innerHTML="Fuera del H1"
+}
+document.getElementById("parrafo").onmouseover=function()
+{
+    document.getElementById("chivato").innerHTML="Ahora estás dentro de el primer parrafo"
+}
+
+document.getElementById("chivato").onmouseover=function()
+{
+    document.getElementById("chivato").innerHTML="Ahora estás dentro de mi,el segundo parrafo"
+}
+
+document.getElementById("reloj").onmouseover=function()
+{
+    document.getElementById("chivato").innerHTML="Ahora estás sobre el reloj."
+}
+
+document.getElementById("cajaBotones").onmouseover=function()
+{
+    document.getElementById("chivato").innerHTML="Ahora estás en los botones algunos botones tienen varios eventos asignados."
+}
+/*
 let n1=document.getElementById('n1');
 let n2=document.getElementById('n2');
 let n3=document.getElementById('n3');
