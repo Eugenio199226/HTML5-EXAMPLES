@@ -9,7 +9,7 @@ let notasMusicales=[
 {nombre:"sol", sound:"./wav/g1.wav",tipo:"tecla_B"},
 {nombre:"solS", sound:"./wav/g1s.wav",tipo:"tecla_N"},
 {nombre:"la", sound:"./wav/a1.wav",tipo:"tecla_B"},
-{nombre:"laS", sound:"./wav/a1.wav",tipo:"tecla_N"},
+{nombre:"laS", sound:"./wav/a1s.wav",tipo:"tecla_N"},
 {nombre:"si", sound:"./wav/b1.wav",tipo:"tecla_B"},
 ];
 /*<div class="tecla_B" id="do"></div>
